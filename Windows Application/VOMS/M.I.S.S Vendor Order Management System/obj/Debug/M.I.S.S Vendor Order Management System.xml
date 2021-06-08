@@ -1,0 +1,431 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+M.I.S.S Vendor Order Management System
+</name>
+</assembly>
+<members>
+<member name="T:M.I.S.S_Vendor_Order_Management_System.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:M.I.S.S_Vendor_Order_Management_System.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:M.I.S.S_Vendor_Order_Management_System.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:M.I.S.S_Vendor_Order_Management_System.My.Resources.Resources.Background1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:M.I.S.S_Vendor_Order_Management_System.My.Resources.Resources.info_sign">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:M.I.S.S_Vendor_Order_Management_System.My.Resources.Resources.M_I_S_S_Logo">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:M.I.S.S_Vendor_Order_Management_System.My.Resources.Resources.Normalisers42_Logo">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:M.I.S.S_Vendor_Order_Management_System.My.Resources.Resources.purepng_com_eyeeyesorgans_of_the_visual_systemorganisms_visionoptical_systemlightfocuseslensclipart_1421526883251xkcin">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:M.I.S.S_Vendor_Order_Management_System.My.Resources.Resources.search">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:M.I.S.S_Vendor_Order_Management_System.My.Resources.Resources.Sign_out">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="T:M.I.S.S_Vendor_Order_Management_System.VATDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:M.I.S.S_Vendor_Order_Management_System.VATDataSet.VATDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:M.I.S.S_Vendor_Order_Management_System.VATDataSet.VATRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:M.I.S.S_Vendor_Order_Management_System.VATDataSet.VATRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:M.I.S.S_Vendor_Order_Management_System.VATDataSetTableAdapters.VATTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:M.I.S.S_Vendor_Order_Management_System.VATDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:M.I.S.S_Vendor_Order_Management_System.VATDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(M.I.S.S_Vendor_Order_Management_System.VATDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:M.I.S.S_Vendor_Order_Management_System.VATDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(M.I.S.S_Vendor_Order_Management_System.VATDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:M.I.S.S_Vendor_Order_Management_System.VATDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(M.I.S.S_Vendor_Order_Management_System.VATDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:M.I.S.S_Vendor_Order_Management_System.VATDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:M.I.S.S_Vendor_Order_Management_System.VATDataSetTableAdapters.TableAdapterManager.UpdateAll(M.I.S.S_Vendor_Order_Management_System.VATDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:M.I.S.S_Vendor_Order_Management_System.VATDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:M.I.S.S_Vendor_Order_Management_System.VATDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:M.I.S.S_Vendor_Order_Management_System.group16DataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:M.I.S.S_Vendor_Order_Management_System.group16DataSet.CustomerDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:M.I.S.S_Vendor_Order_Management_System.group16DataSet.Customer_QuoteDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:M.I.S.S_Vendor_Order_Management_System.group16DataSet.Customer_Quote_Line_ItemDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:M.I.S.S_Vendor_Order_Management_System.group16DataSet.EmployeeDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:M.I.S.S_Vendor_Order_Management_System.group16DataSet.ProductDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:M.I.S.S_Vendor_Order_Management_System.group16DataSet.SupplierDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:M.I.S.S_Vendor_Order_Management_System.group16DataSet.Supplier_QuoteDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:M.I.S.S_Vendor_Order_Management_System.group16DataSet.Supplier_Quote_Line_ItemDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:M.I.S.S_Vendor_Order_Management_System.group16DataSet.SuppLineItemJoinProductDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:M.I.S.S_Vendor_Order_Management_System.group16DataSet.SupplierQuoteJoinSupplierDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:M.I.S.S_Vendor_Order_Management_System.group16DataSet.CustomerQuoteJoinCustomerDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:M.I.S.S_Vendor_Order_Management_System.group16DataSet.CustLineItemJoinProductsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:M.I.S.S_Vendor_Order_Management_System.group16DataSet.SuppQuoteJoinSuppLineItemDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:M.I.S.S_Vendor_Order_Management_System.group16DataSet.CustomerRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:M.I.S.S_Vendor_Order_Management_System.group16DataSet.Customer_QuoteRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:M.I.S.S_Vendor_Order_Management_System.group16DataSet.Customer_Quote_Line_ItemRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:M.I.S.S_Vendor_Order_Management_System.group16DataSet.EmployeeRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:M.I.S.S_Vendor_Order_Management_System.group16DataSet.ProductRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:M.I.S.S_Vendor_Order_Management_System.group16DataSet.SupplierRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:M.I.S.S_Vendor_Order_Management_System.group16DataSet.Supplier_QuoteRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:M.I.S.S_Vendor_Order_Management_System.group16DataSet.Supplier_Quote_Line_ItemRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:M.I.S.S_Vendor_Order_Management_System.group16DataSet.SuppLineItemJoinProductRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:M.I.S.S_Vendor_Order_Management_System.group16DataSet.SupplierQuoteJoinSupplierRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:M.I.S.S_Vendor_Order_Management_System.group16DataSet.CustomerQuoteJoinCustomerRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:M.I.S.S_Vendor_Order_Management_System.group16DataSet.CustLineItemJoinProductsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:M.I.S.S_Vendor_Order_Management_System.group16DataSet.SuppQuoteJoinSuppLineItemRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:M.I.S.S_Vendor_Order_Management_System.group16DataSet.CustomerRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:M.I.S.S_Vendor_Order_Management_System.group16DataSet.Customer_QuoteRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:M.I.S.S_Vendor_Order_Management_System.group16DataSet.Customer_Quote_Line_ItemRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:M.I.S.S_Vendor_Order_Management_System.group16DataSet.EmployeeRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:M.I.S.S_Vendor_Order_Management_System.group16DataSet.ProductRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:M.I.S.S_Vendor_Order_Management_System.group16DataSet.SupplierRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:M.I.S.S_Vendor_Order_Management_System.group16DataSet.Supplier_QuoteRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:M.I.S.S_Vendor_Order_Management_System.group16DataSet.Supplier_Quote_Line_ItemRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:M.I.S.S_Vendor_Order_Management_System.group16DataSet.SuppLineItemJoinProductRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:M.I.S.S_Vendor_Order_Management_System.group16DataSet.SupplierQuoteJoinSupplierRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:M.I.S.S_Vendor_Order_Management_System.group16DataSet.CustomerQuoteJoinCustomerRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:M.I.S.S_Vendor_Order_Management_System.group16DataSet.CustLineItemJoinProductsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:M.I.S.S_Vendor_Order_Management_System.group16DataSet.SuppQuoteJoinSuppLineItemRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:M.I.S.S_Vendor_Order_Management_System.group16DataSetTableAdapters.CustomerTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:M.I.S.S_Vendor_Order_Management_System.group16DataSetTableAdapters.Customer_QuoteTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:M.I.S.S_Vendor_Order_Management_System.group16DataSetTableAdapters.Customer_Quote_Line_ItemTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:M.I.S.S_Vendor_Order_Management_System.group16DataSetTableAdapters.EmployeeTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:M.I.S.S_Vendor_Order_Management_System.group16DataSetTableAdapters.ProductTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:M.I.S.S_Vendor_Order_Management_System.group16DataSetTableAdapters.SupplierTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:M.I.S.S_Vendor_Order_Management_System.group16DataSetTableAdapters.Supplier_QuoteTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:M.I.S.S_Vendor_Order_Management_System.group16DataSetTableAdapters.Supplier_Quote_Line_ItemTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:M.I.S.S_Vendor_Order_Management_System.group16DataSetTableAdapters.SuppLineItemJoinProductTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:M.I.S.S_Vendor_Order_Management_System.group16DataSetTableAdapters.SupplierQuoteJoinSupplierTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:M.I.S.S_Vendor_Order_Management_System.group16DataSetTableAdapters.CustomerQuoteJoinCustomerTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:M.I.S.S_Vendor_Order_Management_System.group16DataSetTableAdapters.CustLineItemJoinProductsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:M.I.S.S_Vendor_Order_Management_System.group16DataSetTableAdapters.SuppQuoteJoinSuppLineItemTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:M.I.S.S_Vendor_Order_Management_System.group16DataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:M.I.S.S_Vendor_Order_Management_System.group16DataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(M.I.S.S_Vendor_Order_Management_System.group16DataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:M.I.S.S_Vendor_Order_Management_System.group16DataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(M.I.S.S_Vendor_Order_Management_System.group16DataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:M.I.S.S_Vendor_Order_Management_System.group16DataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(M.I.S.S_Vendor_Order_Management_System.group16DataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:M.I.S.S_Vendor_Order_Management_System.group16DataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:M.I.S.S_Vendor_Order_Management_System.group16DataSetTableAdapters.TableAdapterManager.UpdateAll(M.I.S.S_Vendor_Order_Management_System.group16DataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:M.I.S.S_Vendor_Order_Management_System.group16DataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:M.I.S.S_Vendor_Order_Management_System.group16DataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>
