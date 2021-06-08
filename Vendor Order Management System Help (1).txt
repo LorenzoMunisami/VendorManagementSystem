@@ -1,0 +1,47 @@
+Help Texts
+
+Throughout the Vendor Order Management System an array of Tooltips are laid out to make 
+navigation simple and intuitive. Simply hover over a button or text box if you're unsure
+about how to navigate or what text to enter.
+For more information, you may click on the 'Help' button at any time and it will display 
+information on how each form is meant to be used.
+
+Login Screen
+To access the Vendor Order Management System you are required to enter your personal username as
+well as your secret passsword. Access will be granted to the Vendor Order Management System once
+your identity is verified.
+
+Main Menu
+In order to access specific subsystems of the Vendor Order Management System, click on the 
+respective button of the susbsystem you wish to access.
+
+Employee Manager
+Select this option to view current employees, employee access levels, update employee details, 
+and to add/delete employees from the Vendor Order Management System. (Only available to managers)
+
+Sales Report Manager
+This subsystem will allow you to select a time period from which you will be able to retrieve 
+and create a sales report. (Only available to managers)
+
+Supplier Manager
+The supplier manager subsystem will allow employees to add suppliers to the Vendor Order
+Management System, as well as delete suppliers, view suppliers as well as update supplier
+details.
+
+Customer Manager
+The customer manager subsystem will allow employees to add customers to the Vendor Order
+Management System, as well as delete customers, view customers as well as update customer
+details.
+
+Product Manager
+The product manager subsystem will allow employees to add products to the Vendor Order
+Management System, as well as delete products, view products as well as update product
+details.
+
+Customer Quote
+Users can view and manage past customer quotes.
+
+Create Customer Quote
+This subsystem will allow employees to create a final quotation for a customer. Users can enter
+product details, alter prices, add a discount as well as print and e-mail quotations.
+
